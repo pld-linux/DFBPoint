@@ -2,13 +2,14 @@ Summary:	DFBPoint - a presentation viewer using DirectFB
 Summary(pl):	DFBPoint - przegl±darka prezentacji u¿ywaj±ca DirectFB
 Name:		DFBPoint
 Version:	0.7.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.directfb.org/download/DFBPoint/%{name}-%{version}.tar.gz
 # Source0-md5:	a4552e47d9a3204c81e502c6358ec08e
 URL:		http://www.directfb.org/
 BuildRequires:	DirectFB-devel >= 0.9.11
+BuildRequires:	automake
 BuildRequires:	autoconf
 BuildRequires:	glib2-devel >= 2.0.0
 BuildRequires:	pkgconfig
@@ -28,6 +29,7 @@ graficznej DirectFB do wy¶wietlania na linuksowym framebufferze.
 %setup -q
 
 %build
+cp -f /usr/share/automake/config.sub .
 %{__autoconf}
 %configure
 
