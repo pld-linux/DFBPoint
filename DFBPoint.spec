@@ -7,7 +7,7 @@ License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.directfb.org/download/DFBPoint/%{name}-%{version}.tar.gz
 # Source0-md5:	a4552e47d9a3204c81e502c6358ec08e
-URL:		http://www.directfb.org/
+URL:		http://www.directfb.org/index.php?path=Development/Projects/DFBPoint
 BuildRequires:	DirectFB-devel >= 0.9.11
 BuildRequires:	automake
 BuildRequires:	autoconf
