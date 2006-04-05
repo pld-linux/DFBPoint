@@ -2,7 +2,7 @@ Summary:	DFBPoint - a presentation viewer using DirectFB
 Summary(pl):	DFBPoint - przegl±darka prezentacji u¿ywaj±ca DirectFB
 Name:		DFBPoint
 Version:	0.7.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.directfb.org/download/DFBPoint/%{name}-%{version}.tar.gz
