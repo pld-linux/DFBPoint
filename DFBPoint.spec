@@ -1,5 +1,5 @@
 Summary:	DFBPoint - a presentation viewer using DirectFB
-Summary(pl.UTF-8):   DFBPoint - przeglądarka prezentacji używająca DirectFB
+Summary(pl.UTF-8):	DFBPoint - przeglądarka prezentacji używająca DirectFB
 Name:		DFBPoint
 Version:	0.7.2
 Release:	3
