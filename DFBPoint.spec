@@ -1,5 +1,5 @@
 Summary:	DFBPoint - a presentation viewer using DirectFB
-Summary(pl):	DFBPoint - przegl±darka prezentacji u¿ywaj±ca DirectFB
+Summary(pl.UTF-8):   DFBPoint - przeglÄ…darka prezentacji uÅ¼ywajÄ…ca DirectFB
 Name:		DFBPoint
 Version:	0.7.2
 Release:	3
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 DFBPoint is a simple presentation viewer that uses the DirectFB
 graphics library to draw to the Linux frame buffer.
 
-%description -l pl
-DFBPoint to prosta przegl±darka prezentacji u¿ywaj±ca biblioteki
-graficznej DirectFB do wy¶wietlania na linuksowym framebufferze.
+%description -l pl.UTF-8
+DFBPoint to prosta przeglÄ…darka prezentacji uÅ¼ywajÄ…ca biblioteki
+graficznej DirectFB do wyÅ›wietlania na linuksowym framebufferze.
 
 %prep
 %setup -q
